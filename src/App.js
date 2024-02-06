@@ -3,7 +3,8 @@ import axios from "axios"; //not currently used
 import "./App.css";
 import Card from "./components/Card";
 import Background from "./components/Background";
-
+import WaterBackground from "./components/Card"
+import Howdy from "./components/switch";
 //Imports call in needed exports from other files
 
 //App runs the entire program, in the div components are placed suchs as < Card /> or < Background />
@@ -11,7 +12,6 @@ const App = () => {
   return (
     <div>
     < Card />
-    <Background />
     </div>
   ); }
 
